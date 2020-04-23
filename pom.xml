@@ -12,13 +12,12 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.example</groupId>
-                <artifactId>HelloWorldJenkins</artifactId>
-                <version>1.0-SNAPSHOT</version>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
                 <configuration>
                     <archive>
                         <manifest>
-                            <addClassPath>true</addClassPath>
+                            <addClasspath>true</addClasspath>
                             <mainClass>HelloWorldJenkins</mainClass>
                         </manifest>
                     </archive>
